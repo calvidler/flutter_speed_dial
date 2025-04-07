@@ -487,7 +487,6 @@ class _SpeedDialState extends State<SpeedDial>
             size: widget.buttonSize,
             label: widget.label != null ? label : null,
             heroTag: widget.heroTag,
-            shape: widget.shape,
             child: child,
           )),
     );
